@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="eo">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Formularo</title>
+</head>
+<body>
+	<h1>Registra formularo</h1>
+	<form action="" method="post">
+		<label for="nombre">Nomo kaj familinomo</label>
+		<input type="text" id="nombre" name="name" required><br>
+		<label for="usuario">Uzanto</label>
+		<input type="text" id="usuario" name="usr" placeholder="Uzanto" required><br>
+		<label for="passwd">Pasvorto</label>
+		<input type="password" name="pw" id="passwd" required><br>
+		<input type="checkbox" name="receive_email" id="recibirEmail">
+		<label for="recibirEmail">Ĉu vi volas akcepti retpoŝtojn?</label><br>
+		<p>
+			<b>Genro</b>
+		</p>
+		<input type="radio" name="gen" id="male" value="male" required>
+		<label for="male">Maskla/Vira</label>
+		<input type="radio" name="gen" id="female" value="female" required>
+		<label for="female">Femala/Virina</label>
+		<input type="radio" name="gen" id="nb" value="nbneutral" required>
+		<label for="nb">Ne duuma aŭ neŭtrala genro</label>
+		<button type="submit" name="btn">Enviar</button>
+	</form>
+</body>
+</html>
